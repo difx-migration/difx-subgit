@@ -64,3 +64,15 @@ mpifxcorr/utils/dedisperse_difx.cpp -text
 mpifxcorr/utils/mpispeed.cpp -text
 /setup.bash -text
 /setup.csh -text
+utilities/difx2profile/AUTHORS -text
+utilities/difx2profile/COPYING -text
+utilities/difx2profile/ChangeLog -text
+utilities/difx2profile/Makefile.am -text
+utilities/difx2profile/NEWS -text
+utilities/difx2profile/README -text
+utilities/difx2profile/configure.ac -text
+utilities/difx2profile/scripts/Makefile.am -text
+utilities/difx2profile/scripts/profile2binconfig.py -text
+utilities/difx2profile/src/Makefile.am -text
+utilities/difx2profile/src/difx2profile.cpp -text
+utilities/difx2profile/src/difx2profile.h -text
