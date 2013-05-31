@@ -1,0 +1,6 @@
+* text=auto !eol
+/README -text
+/genipppc -text
+/install-difx -text
+/setup.bash -text
+/setup.csh -text
