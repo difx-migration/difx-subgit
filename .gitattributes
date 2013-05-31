@@ -96,3 +96,17 @@ utilities/difx2profile/scripts/profile2binconfig.py -text
 utilities/difx2profile/src/Makefile.am -text
 utilities/difx2profile/src/difx2profile.cpp -text
 utilities/difx2profile/src/difx2profile.h -text
+utilities/misc/addMark5b.pl -text
+utilities/misc/difxcopy -text
+utilities/misc/dir2filelist.pl -text
+utilities/misc/fslog2difx.pl -text
+utilities/misc/geteop.pl -text
+utilities/misc/now2sec.pl -text
+utilities/misc/pcList.pl -text
+utilities/misc/sec2time.pl -text
+utilities/misc/startcorr.pl -text
+utilities/misc/time.pl -text
+utilities/misc/time2sec.pl -text
+utilities/misc/update_eop -text
+utilities/misc/updateclocks.pl -text
+utilities/misc/vex2setup.pl -text
