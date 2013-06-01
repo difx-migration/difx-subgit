@@ -1136,6 +1136,7 @@ applications/vex2difx/vex/vex_put.c -text
 applications/vex2difx/vex/vex_util.c -text
 applications/vex2difx/vex/vexf.c -text
 applications/vex2difx/vex/vexf_put.c -text
+/difxbuild -text
 /genipppc -text
 /install-difx -text
 libraries/difxio/AUTHORS -text
