@@ -1431,6 +1431,8 @@ mpifxcorr/utils/dedisperse_difx.cpp -text
 mpifxcorr/utils/mpispeed.cpp -text
 /setup.bash -text
 /setup.csh -text
+sites/MPIfR/difxdb/difxarchive/difxarchive.py -text
+sites/MPIfR/mark5/m5fixtrack/INSTALL -text
 sites/NRAO/SniffPlots/ChangeLog -text
 sites/NRAO/SniffPlots/Makefile.am -text
 sites/NRAO/SniffPlots/README -text
