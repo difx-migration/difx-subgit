@@ -1,2 +1,4 @@
+applications/guiServer/network/.deps
+applications/guiServer/src/.deps
 libraries/python/*.bak
 libraries/python/*.pyc
