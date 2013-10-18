@@ -1,1 +1,3 @@
 * text=auto !eol
+/README -text
+/svn_ext_val.txt -text
