@@ -1513,3 +1513,16 @@ utilities/bench/vdif.h -text
 utilities/bench/vheader.c -text
 utilities/bench/vheader.h -text
 utilities/bench/vlbi_fake.c -text
+utilities/pulsar/create_pulseprofile_input.pl -text
+utilities/pulsar/difx2profile/AUTHORS -text
+utilities/pulsar/difx2profile/COPYING -text
+utilities/pulsar/difx2profile/ChangeLog -text
+utilities/pulsar/difx2profile/Makefile.am -text
+utilities/pulsar/difx2profile/NEWS -text
+utilities/pulsar/difx2profile/README -text
+utilities/pulsar/difx2profile/configure.ac -text
+utilities/pulsar/difx2profile/scripts/Makefile.am -text
+utilities/pulsar/difx2profile/scripts/profile2binconfig.py -text
+utilities/pulsar/difx2profile/src/Makefile.am -text
+utilities/pulsar/difx2profile/src/difx2profile.cpp -text
+utilities/pulsar/difx2profile/src/difx2profile.h -text
