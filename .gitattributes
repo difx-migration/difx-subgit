@@ -1493,6 +1493,15 @@ mpifxcorr/utils/Makefile.am -text
 mpifxcorr/utils/checkmpifxcorr.cpp -text
 mpifxcorr/utils/dedisperse_difx.cpp -text
 mpifxcorr/utils/mpispeed.cpp -text
+sites/MPIfR/difxdb/difxarchive/difxarchive.py -text
+sites/MPIfR/mark5/m5fixtrack/INSTALL -text
+sites/MPIfR/mark5/m5tone/AUTHORS -text
+sites/MPIfR/mark5/m5tone/ChangeLog -text
+sites/MPIfR/mark5/m5tone/Makefile.am -text
+sites/MPIfR/mark5/m5tone/NEWS -text
+sites/MPIfR/mark5/m5tone/README -text
+sites/MPIfR/mark5/m5tone/configure.ac -text
+sites/MPIfR/mark5/m5tone/m5tone.c -text
 sites/NRAO/SniffPlots/ChangeLog -text
 sites/NRAO/SniffPlots/Makefile.am -text
 sites/NRAO/SniffPlots/README -text
