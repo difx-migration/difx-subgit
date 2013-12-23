@@ -1,4 +1,5 @@
 * text=auto !eol
+/README -text
 applications/calcif2/AUTHORS -text
 applications/calcif2/COPYING -text
 applications/calcif2/ChangeLog -text
@@ -1164,6 +1165,9 @@ applications/vex2difx/vex/vex_put.c -text
 applications/vex2difx/vex/vex_util.c -text
 applications/vex2difx/vex/vexf.c -text
 applications/vex2difx/vex/vexf_put.c -text
+/doco-index.html -text
+/genipppc -text
+/install-difx -text
 libraries/difxio/AUTHORS -text
 libraries/difxio/COPYING -text
 libraries/difxio/ChangeLog -text
@@ -1493,6 +1497,8 @@ mpifxcorr/utils/Makefile.am -text
 mpifxcorr/utils/checkmpifxcorr.cpp -text
 mpifxcorr/utils/dedisperse_difx.cpp -text
 mpifxcorr/utils/mpispeed.cpp -text
+/setup.bash -text
+/setup.csh -text
 sites/MPIfR/difxdb/difxarchive/difxarchive.py -text
 sites/MPIfR/mark5/m5fixtrack/INSTALL -text
 sites/MPIfR/mark5/m5tone/AUTHORS -text
