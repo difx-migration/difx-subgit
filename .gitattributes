@@ -1169,6 +1169,7 @@ applications/vex2difx/vex/vex_util.c -text
 applications/vex2difx/vex/vexf.c -text
 applications/vex2difx/vex/vexf_put.c -text
 /genipppc -text
+/install-difx -text
 libraries/difxio/AUTHORS -text
 libraries/difxio/COPYING -text
 libraries/difxio/ChangeLog -text
