@@ -1512,6 +1512,7 @@ mpifxcorr/utils/Makefile.am -text
 mpifxcorr/utils/checkmpifxcorr.cpp -text
 mpifxcorr/utils/dedisperse_difx.cpp -text
 mpifxcorr/utils/mpispeed.cpp -text
+/setup.bash -text
 sites/MPIfR/difxdb/difxarchive/difxarchive.py -text
 sites/MPIfR/mark5/m5fixtrack/INSTALL -text
 sites/MPIfR/mark5/m5tone/AUTHORS -text
