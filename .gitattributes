@@ -1510,6 +1510,7 @@ mpifxcorr/utils/Makefile.am -text
 mpifxcorr/utils/checkmpifxcorr.cpp -text
 mpifxcorr/utils/dedisperse_difx.cpp -text
 mpifxcorr/utils/mpispeed.cpp -text
+sites/MPIfR/difxdb/difxarchive/difxarchive.py -text
 sites/NRAO/SniffPlots/ChangeLog -text
 sites/NRAO/SniffPlots/Makefile.am -text
 sites/NRAO/SniffPlots/README -text
