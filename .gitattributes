@@ -1582,3 +1582,17 @@ utilities/pulsar/difx2profile/scripts/profile2binconfig.py -text
 utilities/pulsar/difx2profile/src/Makefile.am -text
 utilities/pulsar/difx2profile/src/difx2profile.cpp -text
 utilities/pulsar/difx2profile/src/difx2profile.h -text
+utilities/vis2screen/AUTHORS -text
+utilities/vis2screen/ChangeLog -text
+utilities/vis2screen/Makefile.am -text
+utilities/vis2screen/NEWS -text
+utilities/vis2screen/README -text
+utilities/vis2screen/configure.ac -text
+utilities/vis2screen/diffDiFX.py -text
+utilities/vis2screen/fringeFindDiFX.py -text
+utilities/vis2screen/parseDiFX.py -text
+utilities/vis2screen/plotDiFX.py -text
+utilities/vis2screen/plotDynamicSpectrum.py -text
+utilities/vis2screen/plotResidualSpectrum.py -text
+utilities/vis2screen/printDiFX.cpp -text
+utilities/vis2screen/snipDiFX.py -text
