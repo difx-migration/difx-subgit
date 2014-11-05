@@ -1724,6 +1724,7 @@ utilities/misc/addMark5b.pl -text
 utilities/misc/addXcube.pl -text
 utilities/misc/difxcopy -text
 utilities/misc/dir2filelist.pl -text
+utilities/misc/filterDifx2Fits.py -text
 utilities/misc/filterbankprep.py -text
 utilities/misc/fslog2difx.pl -text
 utilities/misc/geteop.pl -text
