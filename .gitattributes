@@ -1958,6 +1958,7 @@ mpifxcorr/utils/joblist -text
 mpifxcorr/utils/jobstatus -text
 mpifxcorr/utils/mpispeed.cpp -text
 mpifxcorr/utils/startdifx -text
+/setup.bash -text
 utilities/bench/Makefile -text
 utilities/bench/README -text
 utilities/bench/medianrate.pl -text
