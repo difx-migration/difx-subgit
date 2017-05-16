@@ -1,4 +1,24 @@
 * text=auto !eol
+applications/calcif2/AUTHORS -text
+applications/calcif2/COPYING -text
+applications/calcif2/ChangeLog -text
+applications/calcif2/Makefile.am -text
+applications/calcif2/NEWS -text
+applications/calcif2/README -text
+applications/calcif2/TODO -text
+applications/calcif2/configure.ac -text
+applications/calcif2/src/CALCServer.h -text
+applications/calcif2/src/CALC_xdr.c -text
+applications/calcif2/src/MATHCNST.H -text
+applications/calcif2/src/Makefile.am -text
+applications/calcif2/src/calcif2.c -text
+applications/calcif2/src/difxcalc.c -text
+applications/calcif2/src/difxcalc.h -text
+applications/calcif2/src/externaldelay.c -text
+applications/calcif2/src/externaldelay.h -text
+applications/calcif2/src/poly.c -text
+applications/calcif2/src/poly.h -text
+applications/calcif2/src/testpoly.c -text
 applications/calcserver/AUTHORS -text
 applications/calcserver/ChangeLog -text
 applications/calcserver/Makefile.am -text
