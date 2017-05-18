@@ -2020,6 +2020,7 @@ sites/MPIfR/AUTHORS -text
 sites/MPIfR/COPYING -text
 sites/MPIfR/ChangeLog -text
 sites/MPIfR/Makefile.am -text
+sites/MPIfR/NEWS -text
 sites/MPIfR/configure.ac -text
 sites/MPIfR/difxdb/difxarchive/Makefile.am -text
 sites/MPIfR/difxdb/difxarchive/difxarchive.py -text
