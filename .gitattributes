@@ -2224,6 +2224,7 @@ utilities/difxdb/difxdbInventory/Makefile.am -text
 utilities/difxdb/difxdbInventory/difxdbInventory.py -text
 utilities/difxdb/difxdbModule/Makefile.am -text
 utilities/difxdb/difxdbModule/difxdbModule.py -text
+utilities/difxdb/difxdbTapelog/Makefile.am -text
 utilities/difxdb/difxdbTapelog/difxdbTapelog.py -text
 utilities/difxdb/difxqueue/Makefile.am -text
 utilities/difxdb/expad/Makefile.am -text
