@@ -530,6 +530,7 @@ applications/hops/data/ff_testdata/Makefile.am -text
 applications/hops/data/ff_testdata/chk_adump.sh -text
 applications/hops/data/ff_testdata/chk_aedit.sh -text
 applications/hops/data/ff_testdata/chk_alist.sh -text
+applications/hops/data/ff_testdata/chk_avefix.sh -text
 applications/hops/data/ff_testdata/chk_average.sh -text
 applications/hops/data/ff_testdata/chk_baselines.sh -text
 applications/hops/data/ff_testdata/chk_cofit.sh -text
@@ -1030,6 +1031,7 @@ applications/hops/scripts/fourphase_mod -text
 applications/hops/scripts/fourphase_mod.in -text
 applications/hops/scripts/hops_data_links.pl -text
 applications/hops/scripts/hops_data_links.pl.in -text
+applications/hops/scripts/hops_vex2ovex.py -text
 applications/hops/scripts/phorc/Makefile.am -text
 applications/hops/scripts/phorc/setup.py -text
 applications/hops/scripts/phorc/src/phorc/__init__.py -text
