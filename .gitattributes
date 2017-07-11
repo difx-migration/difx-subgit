@@ -1420,15 +1420,18 @@ applications/polconvert/src/PP/drivepolconvert.py -text
 applications/polconvert/src/PP/maketar.sh -text
 applications/polconvert/src/PP/prepolconvert.py -text
 applications/polconvert/src/PP/runpolconvert.py -text
+applications/polconvert/src/QA2/PolConvert_EVN_1.4.py -text
 applications/polconvert/src/QA2/README.POLCONVERT -text
 applications/polconvert/src/QA2/oldies/asdmpolconvert.py -text
 applications/polconvert/src/QA2/oldies/casapolconvert.py -text
 applications/polconvert/src/QA2/oldies/xy-guess.py -text
 applications/polconvert/src/QA2/scriptForCalibrationAPP.py -text
+applications/polconvert/src/QA2/scriptForCalibrationAPP_v-8Jul17.py -text
 applications/polconvert/src/QA2/scriptForImagingAPP.py -text
 applications/polconvert/src/Weighter.cpp -text
 applications/polconvert/src/Weighter.h -text
 applications/polconvert/src/_PolConvert.cpp -text
+applications/polconvert/src/_PolGainSolve.cpp -text
 applications/polconvert/src/polconvert.xml -text svneol=unset#application/xml
 applications/polconvert/src/setup.py -text
 applications/polconvert/src/task_polconvert.py -text
