@@ -2097,6 +2097,15 @@ mpifxcorr/utils/mpispeed.cpp -text
 mpifxcorr/utils/startdifx -text
 /setup.bash -text
 /setup.csh -text
+sites/Haystack/ehtc/Readme.txt -text
+sites/Haystack/ehtc/ehtc-joblist.py -text
+sites/Haystack/ehtc/ehtc-pathfix.sh -text
+sites/Haystack/ehtc/ehtc-postdrive.sh -text
+sites/Haystack/ehtc/ehtc-tarballs.sh -text
+sites/Haystack/ehtc/ehtc-template.codes -text
+sites/Haystack/ehtc/ehtc-template.names -text
+sites/Haystack/ehtc/ehtc-zoomchk.py -text
+sites/Haystack/ehtc/est_manual_phases.py -text
 sites/MPIfR/AUTHORS -text
 sites/MPIfR/COPYING -text
 sites/MPIfR/ChangeLog -text
