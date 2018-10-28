@@ -540,10 +540,14 @@ applications/hops/data/ff_testdata/chk_ff_2843.sh -text
 applications/hops/data/ff_testdata/chk_ff_3372.sh -text
 applications/hops/data/ff_testdata/chk_ff_3413.sh -text
 applications/hops/data/ff_testdata/chk_ff_3571.sh -text
+applications/hops/data/ff_testdata/chk_ff_dump.sh -text svneol=unset#application/x-sh
+applications/hops/data/ff_testdata/chk_flagging.sh -text svneol=unset#application/x-sh
 applications/hops/data/ff_testdata/chk_fourmer.sh -text
 applications/hops/data/ff_testdata/chk_fringex.sh -text
 applications/hops/data/ff_testdata/chk_frmrsrch.sh -text
 applications/hops/data/ff_testdata/chk_hdlinks.sh -text
+applications/hops/data/ff_testdata/chk_min_weight.sh -text svneol=unset#application/x-sh
+applications/hops/data/ff_testdata/chk_notches.sh -text svneol=unset#application/x-sh
 applications/hops/data/ff_testdata/chk_search.sh -text
 applications/hops/data/ff_testdata/hopstest.py -text
 applications/hops/data/ff_testdata/hopstestsuite.py.in -text
@@ -884,6 +888,8 @@ applications/hops/postproc/alist/open_output.c -text
 applications/hops/postproc/alist/parse_cmdline.c -text
 applications/hops/postproc/alist/summarize_mk4fringe.c -text
 applications/hops/postproc/fourfit/Makefile.am -text
+applications/hops/postproc/fourfit/adhoc_flag.c svneol=native#text/plain
+applications/hops/postproc/fourfit/adhoc_flag.h -text svneol=unset#text/plain
 applications/hops/postproc/fourfit/ap_mean.c -text
 applications/hops/postproc/fourfit/apply_filter.c -text
 applications/hops/postproc/fourfit/apply_notches.c -text
@@ -947,6 +953,7 @@ applications/hops/postproc/fourfit/make_passes.c -text
 applications/hops/postproc/fourfit/make_plotdata.c -text
 applications/hops/postproc/fourfit/make_postplot.c -text
 applications/hops/postproc/fourfit/max555.c -text
+applications/hops/postproc/fourfit/meta_struct.h -text svneol=unset#text/plain
 applications/hops/postproc/fourfit/new_parameters.txt -text
 applications/hops/postproc/fourfit/norm_fx.c -text
 applications/hops/postproc/fourfit/norm_xf.c -text
@@ -963,6 +970,8 @@ applications/hops/postproc/fourfit/pass_struct.h -text
 applications/hops/postproc/fourfit/pcal_interp.c -text
 applications/hops/postproc/fourfit/pcalibrate.c -text
 applications/hops/postproc/fourfit/plot_complex.c -text
+applications/hops/postproc/fourfit/plot_data_dir.c svneol=native#text/plain
+applications/hops/postproc/fourfit/plot_data_dir.h -text svneol=unset#text/plain
 applications/hops/postproc/fourfit/plot_graph.c -text
 applications/hops/postproc/fourfit/plot_struct.h -text
 applications/hops/postproc/fourfit/precorrect.c -text
@@ -1037,6 +1046,8 @@ applications/hops/scripts/hops_vex2ovex.py -text
 applications/hops/scripts/pcplot -text
 applications/hops/scripts/pcplot.in -text
 applications/hops/scripts/pplot_print -text
+applications/hops/scripts/tpcplot -text
+applications/hops/scripts/tpcplot.in -text
 applications/hops/scripts/vhelp -text
 applications/hops/scripts/vhelp.dist -text
 applications/hops/scripts/vhelp.sh -text
@@ -1158,6 +1169,8 @@ applications/hops/sub/dfio/copy_306.c -text
 applications/hops/sub/dfio/copy_307.c -text
 applications/hops/sub/dfio/copy_308.c -text
 applications/hops/sub/dfio/copy_309.c -text
+applications/hops/sub/dfio/copypage/flush_postscript.txt -text svneol=unset#text/plain
+applications/hops/sub/dfio/copypage/fplot_test.c svneol=native#text/plain
 applications/hops/sub/dfio/corel_alloc.c -text
 applications/hops/sub/dfio/display_221.c -text
 applications/hops/sub/dfio/init_000.c -text
