@@ -2087,11 +2087,15 @@ mpifxcorr/utils/startdifx -text
 /setup.csh -text
 sites/Haystack/ehtc/Readme-Cycle4.txt -text
 sites/Haystack/ehtc/Readme-Cycle5.txt -text
+sites/Haystack/ehtc/ehtc-aeditjob.sh -text svneol=unset#application/x-sh
+sites/Haystack/ehtc/ehtc-antab.sh -text svneol=unset#application/x-sh
 sites/Haystack/ehtc/ehtc-cycle4.codes -text
 sites/Haystack/ehtc/ehtc-cycle4.names -text
 sites/Haystack/ehtc/ehtc-joblist.py -text
+sites/Haystack/ehtc/ehtc-jsgrind.sh -text svneol=unset#application/x-sh
 sites/Haystack/ehtc/ehtc-pathfix.sh -text
 sites/Haystack/ehtc/ehtc-postdrive.sh -text
+sites/Haystack/ehtc/ehtc-release-check.sh -text svneol=unset#application/x-sh
 sites/Haystack/ehtc/ehtc-tarballs.sh -text
 sites/Haystack/ehtc/ehtc-template.codes -text
 sites/Haystack/ehtc/ehtc-template.names -text
