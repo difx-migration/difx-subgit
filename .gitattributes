@@ -2302,6 +2302,7 @@ utilities/difxdb/getmodules/Makefile.am -text
 utilities/difxdb/getreleaselist/Makefile.am -text
 utilities/difxdb/getslot/Makefile.am -text
 utilities/misc/addMark5b.pl -text
+utilities/misc/addVDIF.pl -text
 utilities/misc/addXcube.pl -text
 utilities/misc/day2mjd -text
 utilities/misc/difxcopy -text
@@ -2318,6 +2319,8 @@ utilities/misc/now2sec.pl -text
 utilities/misc/pcList.pl -text
 utilities/misc/sec2time.pl -text
 utilities/misc/startcorr.pl -text
+utilities/misc/summarizeDifxlogs.py -text
+utilities/misc/summarizePolconvertLogs.py -text
 utilities/misc/time.pl -text
 utilities/misc/time2sec.pl -text
 utilities/misc/update_eop -text
