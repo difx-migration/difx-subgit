@@ -2079,6 +2079,7 @@ sites/Haystack/ehtc/ehtc-release-check.sh -text svneol=unset#application/x-sh
 sites/Haystack/ehtc/ehtc-tarballs.sh -text
 sites/Haystack/ehtc/ehtc-template.codes -text
 sites/Haystack/ehtc/ehtc-template.names -text
+sites/Haystack/ehtc/ehtc-template.notes -text
 sites/Haystack/ehtc/ehtc-zoomchk.py -text
 sites/Haystack/ehtc/est_manual_phases.py -text
 sites/Haystack/ehtc/ocean_load_ehtc.coef -text
