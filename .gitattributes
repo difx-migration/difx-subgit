@@ -2055,6 +2055,7 @@ mpifxcorr/src/visibility.h -text
 mpifxcorr/src/watchdog.cpp -text
 mpifxcorr/src/watchdog.h -text
 mpifxcorr/utils/Makefile.am -text
+mpifxcorr/utils/calcifMixed -text
 mpifxcorr/utils/checkmpifxcorr.cpp -text
 mpifxcorr/utils/dedisperse_difx.cpp -text
 mpifxcorr/utils/genmachines -text
@@ -2085,6 +2086,7 @@ sites/Haystack/ehtc/est_manual_phases.py -text
 sites/Haystack/ehtc/ocean_load_ehtc.coef -text
 sites/Haystack/ehtc/ocean_load_mods.sed -text
 sites/Haystack/ehtc/ocean_sites.py svneol=native#text/plain
+sites/Haystack/notes.txt -text svneol=unset#text/plain
 sites/MPIfR/AUTHORS -text
 sites/MPIfR/COPYING -text
 sites/MPIfR/ChangeLog -text
