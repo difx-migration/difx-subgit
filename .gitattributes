@@ -306,3 +306,16 @@ libraries/mark6sg/mark6sg/mark6_sg_vfs_impl.h -text
 libraries/mark6sg/test/Makefile.am -text
 libraries/mark6sg/test/m6sg_test1.c -text
 libraries/mark6sg/test/m6sg_test2.c -text
+libraries/perl/Astro/Astro/Coord.pm -text
+libraries/perl/Astro/Astro/Misc.pm -text
+libraries/perl/Astro/Astro/Time.pm -text
+libraries/perl/Astro/Changes -text
+libraries/perl/Astro/MANIFEST -text
+libraries/perl/Astro/META.yml -text
+libraries/perl/Astro/Makefile.PL -text
+libraries/perl/Astro/README -text
+libraries/perl/Astro/test.pl -text
+libraries/perl/DIFX-Input/Input.pm -text
+libraries/perl/DIFX-Input/MANIFEST -text
+libraries/perl/DIFX-Input/Makefile.PL -text
+libraries/perl/DIFX-Input/test.pl -text
