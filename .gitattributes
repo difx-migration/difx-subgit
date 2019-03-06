@@ -1960,6 +1960,7 @@ mpifxcorr/utils/joblist -text
 mpifxcorr/utils/jobstatus -text
 mpifxcorr/utils/mpispeed.cpp -text
 mpifxcorr/utils/startdifx -text
+/setup.bash -text
 sites/NRAO/SniffPlots/ChangeLog -text
 sites/NRAO/SniffPlots/Makefile.am -text
 sites/NRAO/SniffPlots/README -text
