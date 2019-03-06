@@ -1447,6 +1447,7 @@ applications/vex2difx/vexdatamodel/vex_utility.h -text
 applications/vex2difx/vexdatamodel/vexdatamodel.h -text
 applications/vex2difx/vexdatamodel/vexload.cpp -text
 applications/vex2difx/vexdatamodel/vexload.h -text
+/genipppc -text
 /install-difx -text
 libraries/difxio/AUTHORS -text
 libraries/difxio/COPYING -text
