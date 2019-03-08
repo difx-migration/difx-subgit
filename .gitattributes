@@ -2052,6 +2052,12 @@ sites/USNO/trunk/bin/builddifx.DIFX-DEVEL -text
 sites/USNO/trunk/bin/runmpifxcorr.DIFX-2.1 -text
 sites/USNO/trunk/bin/runmpifxcorr.DIFX-DEVEL -text
 sites/USNO/trunk/bin/runmpispeed -text
+utilities/RadioAstronFringe/JMA_code.h -text
+utilities/RadioAstronFringe/JMA_math.h -text
+utilities/RadioAstronFringe/Makefile -text
+utilities/RadioAstronFringe/dumpRadioAstronBaseline.c -text
+utilities/RadioAstronFringe/fft_fringe.cxx -text
+utilities/RadioAstronFringe/join_fringes.cxx -text
 utilities/bench/Makefile -text
 utilities/bench/README -text
 utilities/bench/medianrate.pl -text
