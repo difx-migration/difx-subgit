@@ -2216,6 +2216,14 @@ utilities/pulsar/difx2profile/scripts/profile2binconfig.py -text
 utilities/pulsar/difx2profile/src/Makefile.am -text
 utilities/pulsar/difx2profile/src/difx2profile.cpp -text
 utilities/pulsar/difx2profile/src/difx2profile.h -text
+utilities/vex2ovex/AUTHORS -text
+utilities/vex2ovex/ChangeLog -text
+utilities/vex2ovex/Makefile -text
+utilities/vex2ovex/Makefile.am -text
+utilities/vex2ovex/NEWS -text
+utilities/vex2ovex/README -text
+utilities/vex2ovex/configure.ac -text
+utilities/vex2ovex/vex2ovex.py -text
 utilities/vis2screen/AUTHORS -text
 utilities/vis2screen/ChangeLog -text
 utilities/vis2screen/Makefile.am -text
