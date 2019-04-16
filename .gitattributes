@@ -1688,7 +1688,11 @@ libraries/vdifio/python/setup.py -text
 libraries/vdifio/python/vdifio/__init__.py -text
 libraries/vdifio/src/Makefile.am -text
 libraries/vdifio/src/cornerturners.c -text
+libraries/vdifio/src/dateutils.c -text
+libraries/vdifio/src/dateutils.h -text
 libraries/vdifio/src/decode.c -text
+libraries/vdifio/src/mark6gather_vdif.c -text
+libraries/vdifio/src/mark6gather_vdif.h -text
 libraries/vdifio/src/sampleTemplate -text
 libraries/vdifio/src/vdifbuffer.c -text
 libraries/vdifio/src/vdiffile.c -text
@@ -1705,6 +1709,7 @@ libraries/vdifio/utils/countVDIFPackets.c -text
 libraries/vdifio/utils/extractSingleVDIFThread.c -text
 libraries/vdifio/utils/extractVDIFThreads.c -text
 libraries/vdifio/utils/fakemultiVDIF.c -text
+libraries/vdifio/utils/filterVDIF.c -text
 libraries/vdifio/utils/generateVDIF.c -text
 libraries/vdifio/utils/multi2singlethreadVDIF.c -text
 libraries/vdifio/utils/padVDIF.c -text
@@ -1727,6 +1732,7 @@ libraries/vdifio/utils/vmux.c -text
 libraries/vdifio/utils/vsum.c -text
 libraries/vdifio/vdifio.pc.in -text
 libraries/vdifio/vdifio.spec.in -text
+libraries/vdifio/vlbi-vdifio.spec.in -text
 libraries/vex/vexlib/Makefile -text
 libraries/vex/vexlib/Makefile.osx -text
 libraries/vex/vexlib/print_vex.c -text
