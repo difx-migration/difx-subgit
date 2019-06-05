@@ -2057,6 +2057,7 @@ utilities/RadioAstronFringe/JMA_math.h -text
 utilities/RadioAstronFringe/Makefile -text
 utilities/RadioAstronFringe/dumpRadioAstronBaseline.c -text
 utilities/RadioAstronFringe/fft_fringe.cxx -text
+utilities/RadioAstronFringe/find_RadioAstron_Fringe -text
 utilities/RadioAstronFringe/join_fringes.cxx -text
 utilities/bench/Makefile -text
 utilities/bench/README -text
