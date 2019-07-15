@@ -1739,6 +1739,7 @@ libraries/mark6sg/jsmn/jsmn_test.c -text
 libraries/mark6sg/mark6gather/Makefile.am -text
 libraries/mark6sg/mark6gather/mark6gather.c -text
 libraries/mark6sg/mark6gather/mark6gather.h -text
+libraries/mark6sg/mark6gather/mk6cp -text
 libraries/mark6sg/mark6gather/mk6gather.c -text
 libraries/mark6sg/mark6gather/mk6ls.c -text
 libraries/mark6sg/mark6gather/mk6summary.c -text
