@@ -2313,6 +2313,7 @@ utilities/vis2screen/plotResidualSpectrum.py -text
 utilities/vis2screen/polswapDiFX.py -text
 utilities/vis2screen/printDiFX.cpp -text
 utilities/vis2screen/printDiFX.py -text
+utilities/vis2screen/printDiFXInput.py -text
 utilities/vis2screen/removeZerovalAutoDiFX.py -text
 utilities/vis2screen/replaceAntennaDiFX.py -text
 utilities/vis2screen/snipDiFX.py -text
