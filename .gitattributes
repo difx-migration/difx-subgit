@@ -182,6 +182,17 @@ applications/difx2mark4/src/conv2date.c -text
 applications/difx2mark4/src/createRoot.c -text
 applications/difx2mark4/src/createType1s.c -text
 applications/difx2mark4/src/createType3s.c -text
+applications/difx2mark4/src/d2m4_pcal_copy_record.c -text
+applications/difx2mark4/src/d2m4_pcal_count_unique_polarizations.c -text
+applications/difx2mark4/src/d2m4_pcal_create_list.c -text
+applications/difx2mark4/src/d2m4_pcal_dump_record.c -text
+applications/difx2mark4/src/d2m4_pcal_free_list.c -text
+applications/difx2mark4/src/d2m4_pcal_free_record.c -text
+applications/difx2mark4/src/d2m4_pcal_init_record.c -text
+applications/difx2mark4/src/d2m4_pcal_merge_datastreams_in_list.c -text
+applications/difx2mark4/src/d2m4_pcal_merge_record.c -text
+applications/difx2mark4/src/d2m4_pcal_populate_record.c -text
+applications/difx2mark4/src/d2m4_pcal_record.h -text
 applications/difx2mark4/src/difx2mark4.c -text
 applications/difx2mark4/src/difx2mark4.h -text
 applications/difx2mark4/src/fill_fblock.c -text
