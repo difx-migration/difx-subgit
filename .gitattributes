@@ -427,10 +427,678 @@ applications/hops/Fink.txt -text
 applications/hops/MacPorts.txt -text
 applications/hops/Makefile.am -text
 applications/hops/README.difx.txt -text
+applications/hops/README.pgplot.txt -text svneol=unset#text/plain
 applications/hops/README.txt -text
 applications/hops/README.txt.in -text
 applications/hops/apt-packages.txt -text
+applications/hops/autogen.sh -text svneol=unset#application/x-sh
 applications/hops/capture-log.py -text
+applications/hops/chops/Makefile.am -text
+applications/hops/chops/hops_checksum.sh -text svneol=unset#application/x-sh
+applications/hops/chops/hops_checksum.sh.in -text
+applications/hops/chops/run_checksum.sh -text svneol=unset#application/x-sh
+applications/hops/chops/run_checksum.sh.in -text
+applications/hops/chops/source/Makefile.am -text
+applications/hops/chops/source/c_src/Makefile.am -text
+applications/hops/chops/source/c_src/afio/Makefile.am -text
+applications/hops/chops/source/c_src/afio/import_afio.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/c_src/afio/include/adata.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/include/afile_structure.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/include/mk4_afio.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/afile_header.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/aline_id.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/check_sizes.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/clear_afile_structure.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/clear_csumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/clear_fsumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/clear_rsumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/clear_tsumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/corelname.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/fringename.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/get_unique_name.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/parse_csumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/parse_fsumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/parse_rsumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/parse_tsumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/read_afile.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/rootname.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/write_csumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/write_fsumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/write_rsumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/afio/src/write_tsumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/Makefile.am -text
+applications/hops/chops/source/c_src/applications/aedit/Makefile.am -text
+applications/hops/chops/source/c_src/applications/aedit/aedit.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/import_aedit.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/c_src/applications/aedit/include/aedata.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/include/aedit.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/include/aedit_proto.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/include/close_flags.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/include/flags.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/include/param_list.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/include/psplot.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/include/pstruct.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/include/sizelimits.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/include/sort.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/include/summary.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/include/tempo.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/include/usearray.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/active_filter.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/add_station.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/aeclr_corel.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/aeclr_fringe.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/aeclr_quad.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/aeclr_root.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/aeclr_triangle.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/alloc_btq.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/allocate_parms.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/auto_hardcopy.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/axis.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/axis_scale.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/calc_close.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/cfilter.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/check_env.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/cleanup.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/cleanup_psplot.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/clear.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/clear_fqex.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/clear_pstruct.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/clear_source.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/clear_summ.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/command_id.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/cross_link.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/cursor_select.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/datum_value.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/display_psdata.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/dup_check.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/dup_flag.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/edit.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/edit_close.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/edit_families.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/erase_point.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/esdesp_check.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/execute.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/extract_parms.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/ffilter.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/fill4_parms.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/fill_closure.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/fill_tdata.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/fplot.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/get_axis.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/get_param.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/get_param_list.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/get_plot_data.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/get_plot_datum.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/get_ps_indices4.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/help.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/init_inputs.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/init_summ.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/locate_pscurs.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/make_psarray4.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/make_tri.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/makekey.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/mk3_qf.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/param_list.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/parse_cmdline.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/parse_commands.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/plot.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/plot_fqex.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/plot_header.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/plot_points.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/plot_quality.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/pr_allsumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/pr_csumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/pr_fsumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/pr_inputs.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/pr_rsumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/pr_source.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/pr_ssumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/pr_summary.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/pr_tsumm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/print_data.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/ps_baselabel.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/ps_fplot.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/ps_free.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/ps_inside.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/ps_proc_datum.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/ps_scanlabel.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/ps_selbase.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/ps_selqual.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/ps_selscan.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/psfile4.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/psplot.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/psplot4.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/psplot_defaults4.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/pstag_process.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/qarray_index.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/qfilter.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/read_cursor.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/read_data.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/rfilter.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/run_com_file.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/run_pscursor.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/save.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_baselines.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_device.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_fraction.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_frequencies.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_mode.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_nfreq.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_pols.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_prange.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_procrange.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_pscodes.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_psparam.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_qcodes.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_quads.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_sources.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_stations.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_timerange.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_triangles.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_type.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/set_year.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/setup_plot.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/setup_psplot.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/smatch.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/sorter.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/station_reduce.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/summ_corel.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/summ_data.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/summ_fringe.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/summ_quad.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/summ_root.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/summ_triangle.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/symbol_key.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/tarray_index.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/test1.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/tfilter.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/time_axis.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/triangle_value.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/tricheck.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/trngl_present.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/unflag.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/update_fqex.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/update_sinfo.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/write_data.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/write_families.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/write_param.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/write_prmline.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/write_psfile.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/write_pshdr.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/write_reproc.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/write_tdata.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/aedit/src/zoom.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/alist/Makefile.am -text
+applications/hops/chops/source/c_src/applications/alist/alist.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/alist/import_alist.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/c_src/applications/alist/open_output.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/alist/parse_cmdline.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/alist/summarize_mk4fringe.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/fourfit/Makefile.am -text
+applications/hops/chops/source/c_src/applications/fourfit/fourfit.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/applications/fourfit/import_fourfit.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/c_src/dfio/Makefile.am -text
+applications/hops/chops/source/c_src/dfio/import_dfio.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/c_src/dfio/include/T1.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/bytflp.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/mk4_data.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/mk4_dfio.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/mk4_records.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_000.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_100.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_101.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_110.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_120.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_200.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_201.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_202.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_203.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_204.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_205.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_206.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_207.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_208.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_210.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_212.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_220.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_221.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_222.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_230.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_300.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_301.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_302.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_303.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_304.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_305.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_306.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_307.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_308.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_309.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/include/type_comp.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_100.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_101.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_110.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_120.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_200.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_201.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_202.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_203.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_204.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_205.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_206.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_207.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_208.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_210.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_212.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_220.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_221.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_222.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_230.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_300.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_301.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_302.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_303.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_304.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_305.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_306.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_307.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_308.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/addr_309.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_100.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_101.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_110.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_120.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_200.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_201.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_202.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_203.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_204.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_205.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_206.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_207.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_208.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_210.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_212.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_220.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_221.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_222.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_230.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_300.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_301.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_302.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_303.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_304.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_305.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_306.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_307.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_308.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_309.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_coord.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_mk4corel.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_mk4fringe.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/clear_mk4sdata.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/compress.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_100.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_101.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_110.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_120.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_200.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_201.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_202.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_203.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_204.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_205.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_206.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_207.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_208.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_210.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_212.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_220.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_221.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_222.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_230.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_300.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_301.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_302.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_303.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_304.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_305.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_306.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_307.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_308.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/copy_309.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/corel_alloc.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/display_221.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/init_000.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/open_datafile.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/read_mk4corel.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/read_mk4file.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/read_mk4fringe.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/read_mk4sdata.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/test_compress.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/write_err.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/write_mk4corel.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/write_mk4fringe.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/write_mk4sdata.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/dfio/src/write_record.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/Makefile.am -text
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/Makefile.am -text
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/import_ffcontrol.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/include/control.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/include/parser.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/src/copy_cblock_parts.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/src/create_fsm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/src/criteria_match.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/src/default_cblock.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/src/get_bfstring.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/src/init_tokens.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/src/lex.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/src/nullify_cblock.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/src/parse_control_file.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/src/parser.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/src/read_control_file.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/src/skip_data.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcontrol/src/skip_index.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/Makefile.am -text
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/import_ffcore.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/include/filter.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/include/fourfit_signal_handler.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/include/freqlist.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/include/param_struct.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/include/pass_struct.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/include/plot_struct.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/include/refringe.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/include/statistics.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/include/write_lock_mechanism.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/check_rflist.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/clear_freq_corel.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/clear_pass.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/create_lockfile.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/diff_file_phase.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/fill_param.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/fourfit_signal_handler.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/generate_cblock.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/get_corel_data.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/make_flist.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/make_passes.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/pcal_interp.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/read_sdata.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/refringe_list.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/set_defaults.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/set_pointers.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/stcount_interp.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/time_range.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/update.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/vrot.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffcore/src/wait_for_write_lock.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/Makefile.am -text
+applications/hops/chops/source/c_src/fourfit_libs/ffio/import_ffio.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_200.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_201.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_202.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_203.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_204.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_205.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_206.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_207.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_208.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_210.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_212.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_222.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_230.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffio/src/fill_fringe_info.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffmath/Makefile.am -text
+applications/hops/chops/source/c_src/fourfit_libs/ffmath/import_ffmath.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/c_src/fourfit_libs/ffmath/src/ap_mean.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffmath/src/bcd_to_2int.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffmath/src/interp555.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffmath/src/linterp.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffmath/src/max555.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffmath/src/minvert.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffmath/src/parabola.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/Makefile.am -text
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/import_ffplot.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/include/meta_struct.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/include/plot_data_dir.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/display_fplot.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/fit_vbp.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/generate_graphs.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/generate_text.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/grid.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/make_plotdata.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/make_postplot.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/output.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/plot_complex.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/plot_data_dir.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/plot_graph.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/put_char_at.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/sprint_char_arr.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffplot/src/sprint_date.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/Makefile.am -text
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/import_ffsearch.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/include/adhoc_flag.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/adhoc_flag.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/apply_filter.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/apply_notches.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/apply_passband.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/apply_video_bp.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/calc_normalization.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/calc_rms.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/compute_model.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/compute_qf.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/create_fname.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/delay_rate.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/est_pc_manual.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/freq_spacing.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/fringe_search.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/gate_off.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/interp.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/ion_covariance.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/ion_search.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/norm_fx.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/norm_xf.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/organize_data.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/parse_cmdline.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/pcalibrate.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/precorrect.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/report_actions.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/rotate_pcal.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/sampler_delays.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/search.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/search_windows.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/fourfit_libs/ffsearch/src/update.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/Makefile.am -text
+applications/hops/chops/source/c_src/mk4util/import_mk4util.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/c_src/mk4util/include/account.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/include/adler32_checksum.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/include/fileset.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/include/fstruct.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/include/general.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/include/mk4_sizes.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/include/mk4_typedefs.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/include/mk4_util.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/account.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/adler32_checksum.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/check_name.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/clear_date.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/clear_fstruct.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/confirm.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/datec_to_datef.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/datef_to_datec.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/day_of_datef.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/environment.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/extract_filenames.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/fileset.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/get_abs_path.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/get_filelist.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/hptoie.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/hptoie4.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/hptoie8.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/int_to_time.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/ismk4.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/minmax.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/msg.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/report_times.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/root_belong.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/root_id.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/sexigesimal2hrdeg.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/sort_names.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/swap.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/syntax.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/time_to_double.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/mk4util/src/time_to_int.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/Makefile.am -text
+applications/hops/chops/source/c_src/vex/import_vex.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/c_src/vex/include/cvex.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/include/evex.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/include/ivex.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/include/lvex.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/include/mk4_vex.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/include/ovex.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/include/svex.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/include/vex.h -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/block_params.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/check_intrange.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/check_realrange.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/check_scan.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/check_stloc.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/check_strrange.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/cvex_info.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/decode_pval.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_antenna.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_bbc.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_clock.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_das.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_eop.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_exper.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_freq.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_head_pos.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_if.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_pass_order.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_phase_cal_detect.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_roll.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_site.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_source.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/do_track.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/evex_info.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/fill_deflists.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/fill_scanlist.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/fill_station_parms.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/find_statements.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_block_mode.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_chip_mode.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_corr_bd_parms.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_corr_mode.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_def.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_drive_init.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_global_deflist.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_logscan.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_mode_deflist.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_pbs_init.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_pcm_config.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_pcm_tables.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_section_mode.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_statement.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_station_deflist.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_su_chan_out.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_su_connect.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_trm_config.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_val_list.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_version.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/get_vex.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/in_comment.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/in_quote.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/init_scan.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/ivex_info.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/locate_blocks.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/locate_cq.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/lvex_info.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/nextchar.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/param_formats.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/parse_date.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/parse_dec.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/parse_pval.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/parse_ra.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/parse_ref.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/parse_units.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/parse_vexfile.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/print_location.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/process_qstring.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/read_file.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/scan_info.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/strip_text.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/svex_info.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/vex_init.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/src/write_vexfile.c -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/text/blk_stmt.txt -text svneol=unset#text/plain
+applications/hops/chops/source/c_src/vex/text/pformat.txt -text svneol=unset#text/plain
+applications/hops/chops/source/python_src/Makefile.am -text
+applications/hops/chops/source/python_src/ffcontrol_module/Makefile.am -text
+applications/hops/chops/source/python_src/ffcontrol_module/ffcontrol/__init__.py -text
+applications/hops/chops/source/python_src/ffcontrol_module/ffcontrol/ffcontrol.py -text
+applications/hops/chops/source/python_src/ffcontrol_module/include/ffcontrol_module_extern.h -text svneol=unset#text/plain
+applications/hops/chops/source/python_src/ffcontrol_module/setup.py.in -text
+applications/hops/chops/source/python_src/ffcontrol_module/src/compute_control_file_hash.c -text svneol=unset#text/plain
+applications/hops/chops/source/python_src/ffcontrol_module/src/construct_cblock.c -text svneol=unset#text/plain
+applications/hops/chops/source/python_src/ffcontrol_module/src/ffcontrol_module_extern.c -text svneol=unset#text/plain
+applications/hops/chops/source/python_src/hopstest_module/Makefile.am -text
+applications/hops/chops/source/python_src/hopstest_module/hopstestb/__init__.py -text
+applications/hops/chops/source/python_src/hopstest_module/hopstestb/hopstestb.py -text
+applications/hops/chops/source/python_src/hopstest_module/hopstestsuiteb.py -text
+applications/hops/chops/source/python_src/hopstest_module/hopstestsuiteb.py.in -text
+applications/hops/chops/source/python_src/hopstest_module/setup.py.in -text
+applications/hops/chops/source/python_src/mk4_module/Makefile.am -text
+applications/hops/chops/source/python_src/mk4_module/afiob/__init__.py -text
+applications/hops/chops/source/python_src/mk4_module/afiob/afiob.py -text
+applications/hops/chops/source/python_src/mk4_module/include/mk4_module_extern.h -text svneol=unset#text/plain
+applications/hops/chops/source/python_src/mk4_module/mk4b/__init__.py -text
+applications/hops/chops/source/python_src/mk4_module/mk4b/mk4b.py -text
+applications/hops/chops/source/python_src/mk4_module/setup.py.in -text
+applications/hops/chops/source/python_src/mk4_module/src/mk4_module_extern.c -text svneol=unset#text/plain
+applications/hops/chops/source/python_src/scripts/Makefile.am -text
+applications/hops/chops/source/python_src/scripts/batch_fourfit.py -text
+applications/hops/chops/source/python_src/scripts/batch_fourfit.py.in -text
+applications/hops/chops/source/python_src/scripts/ffres2pcp.py -text
+applications/hops/chops/source/python_src/scripts/ffres2pcp.py.in -text
+applications/hops/chops/source/python_src/scripts/fourphase.py -text
+applications/hops/chops/source/python_src/scripts/fourphase.py.in -text
+applications/hops/chops/source/python_src/scripts/pcc_generate.py -text
+applications/hops/chops/source/python_src/scripts/pcc_generate.py.in -text
+applications/hops/chops/source/python_src/scripts/pcc_plot.py -text
+applications/hops/chops/source/python_src/scripts/pcc_plot.py.in -text
+applications/hops/chops/source/python_src/scripts/pcc_select.py -text
+applications/hops/chops/source/python_src/scripts/pcc_select.py.in -text
+applications/hops/chops/source/python_src/scripts/phase_resid.py -text
+applications/hops/chops/source/python_src/scripts/phase_resid.py.in -text
+applications/hops/chops/source/python_src/scripts/summarize_report.py -text
+applications/hops/chops/source/python_src/scripts/summarize_report.py.in -text
+applications/hops/chops/source/python_src/scripts/vgoscf_generate.py -text
+applications/hops/chops/source/python_src/scripts/vgoscf_generate.py.in -text
+applications/hops/chops/source/python_src/tests/3593.tar.gz -text svneol=unset#application/gzip
+applications/hops/chops/source/python_src/tests/Makefile.am -text
+applications/hops/chops/source/python_src/tests/test_ffres2pcp.py -text
+applications/hops/chops/source/python_src/tests/test_fourphase.py -text
+applications/hops/chops/source/python_src/tests/test_harness.sh -text svneol=unset#application/x-sh
+applications/hops/chops/source/python_src/tests/test_harness.sh.in -text
+applications/hops/chops/source/python_src/tests/test_pcc_generate.py -text
+applications/hops/chops/source/python_src/vex_module/Makefile.am -text
+applications/hops/chops/source/python_src/vex_module/include/vexpy_module_extern.h -text svneol=unset#text/plain
+applications/hops/chops/source/python_src/vex_module/setup.py.in -text
+applications/hops/chops/source/python_src/vex_module/src/vexpy_module_extern.c -text svneol=unset#text/plain
+applications/hops/chops/source/python_src/vex_module/vexpy/__init__.py -text
+applications/hops/chops/source/python_src/vex_module/vexpy/vexpy.py -text
+applications/hops/chops/source/python_src/vpal_module/Makefile.am -text
+applications/hops/chops/source/python_src/vpal_module/setup.py.in -text
+applications/hops/chops/source/python_src/vpal_module/vpal/__init__.py -text
+applications/hops/chops/source/python_src/vpal_module/vpal/ffres2pcp_lib.py -text
+applications/hops/chops/source/python_src/vpal_module/vpal/fourphase_lib.py -text
+applications/hops/chops/source/python_src/vpal_module/vpal/fringe_file_manipulation.py -text
+applications/hops/chops/source/python_src/vpal_module/vpal/pcc_delay_fitting.py -text
+applications/hops/chops/source/python_src/vpal_module/vpal/pcc_plotting_utils.py -text
+applications/hops/chops/source/python_src/vpal_module/vpal/processing.py -text
+applications/hops/chops/source/python_src/vpal_module/vpal/proxy_cable_cal.py -text
+applications/hops/chops/source/python_src/vpal_module/vpal/report_lib.py -text
+applications/hops/chops/source/python_src/vpal_module/vpal/utility.py -text
 applications/hops/configure.ac -text
 applications/hops/correlator/CorAsc2/CorAsc2.c -text
 applications/hops/correlator/CorAsc2/Makefile.am -text
@@ -628,6 +1296,7 @@ applications/hops/include/vex.h -text
 applications/hops/include/write_lock_mechanism.h -text
 applications/hops/m4/printer.m4 -text
 applications/hops/m4/test.m4 -text
+applications/hops/pgplot-drivers.list -text
 applications/hops/postproc/Makefile.am -text
 applications/hops/postproc/adump/Makefile.am -text
 applications/hops/postproc/adump/adump.c -text
@@ -811,6 +1480,7 @@ applications/hops/postproc/fourfit/ap_mean.c -text
 applications/hops/postproc/fourfit/apply_filter.c -text
 applications/hops/postproc/fourfit/apply_notches.c -text
 applications/hops/postproc/fourfit/apply_passband.c -text
+applications/hops/postproc/fourfit/apply_video_bp.c -text svneol=unset#text/plain
 applications/hops/postproc/fourfit/calc_normalization.c -text
 applications/hops/postproc/fourfit/calc_rms.c -text
 applications/hops/postproc/fourfit/check_rflist.c -text
@@ -847,6 +1517,7 @@ applications/hops/postproc/fourfit/fill_230.c -text
 applications/hops/postproc/fourfit/fill_fringe_info.c -text
 applications/hops/postproc/fourfit/fill_param.c -text
 applications/hops/postproc/fourfit/filter.h -text
+applications/hops/postproc/fourfit/fit_vbp.c -text svneol=unset#text/plain
 applications/hops/postproc/fourfit/fourfit.c -text
 applications/hops/postproc/fourfit/fourfit_signal_handler.c -text
 applications/hops/postproc/fourfit/freq_spacing.c -text
@@ -862,6 +1533,7 @@ applications/hops/postproc/fourfit/grid.c -text
 applications/hops/postproc/fourfit/init_tokens.c -text
 applications/hops/postproc/fourfit/interp.c -text
 applications/hops/postproc/fourfit/interp555.c -text
+applications/hops/postproc/fourfit/ion_covariance.c -text svneol=unset#text/plain
 applications/hops/postproc/fourfit/ion_search.c -text
 applications/hops/postproc/fourfit/lex.c -text
 applications/hops/postproc/fourfit/linterp.c -text
@@ -871,6 +1543,7 @@ applications/hops/postproc/fourfit/make_plotdata.c -text
 applications/hops/postproc/fourfit/make_postplot.c -text
 applications/hops/postproc/fourfit/max555.c -text
 applications/hops/postproc/fourfit/meta_struct.h -text
+applications/hops/postproc/fourfit/minvert.c -text svneol=unset#text/plain
 applications/hops/postproc/fourfit/new_parameters.txt -text
 applications/hops/postproc/fourfit/norm_fx.c -text
 applications/hops/postproc/fourfit/norm_xf.c -text
@@ -953,8 +1626,6 @@ applications/hops/scripts/compare-baselines-v6.pl -text
 applications/hops/scripts/env_check -text
 applications/hops/scripts/est_manual_phases.py -text
 applications/hops/scripts/est_manual_phases.py.in -text
-applications/hops/scripts/fourphase -text
-applications/hops/scripts/fourphase.in -text
 applications/hops/scripts/fourphase_original -text
 applications/hops/scripts/fourphase_original.in -text
 applications/hops/scripts/hops_data_links.pl -text
@@ -1214,6 +1885,45 @@ applications/hops/sub/vex/text/pformat.txt -text
 applications/hops/sub/vex/vex_init.c -text
 applications/hops/sub/vex/write_vexfile.c -text
 applications/hops/svnrev.txt -text
+applications/hops/vex2xml/Makefile.am -text
+applications/hops/vex2xml/VEX2XML -text
+applications/hops/vex2xml/chk_env.sh -text svneol=unset#application/x-sh
+applications/hops/vex2xml/chk_v2v.sh -text svneol=unset#application/x-sh
+applications/hops/vex2xml/doc/Antlr-LICENSE-ver3.txt -text svneol=unset#text/plain
+applications/hops/vex2xml/doc/Apache-LICENSE-ver2.0.txt -text svneol=unset#text/plain
+applications/hops/vex2xml/doc/Release-Notes.txt -text svneol=unset#text/plain
+applications/hops/vex2xml/doc/VEX-visualGrammar.pdf -text svneol=unset#application/pdf
+applications/hops/vex2xml/lib/antlr-3.5.2-complete.jar -text svneol=unset#application/x-java-archive
+applications/hops/vex2xml/lib/commons-cli-1.2.jar -text svneol=unset#application/x-java-archive
+applications/hops/vex2xml/src/VEX2XML.java -text
+applications/hops/vex2xml/src/manifest.txt -text svneol=unset#text/plain
+applications/hops/vex2xml/src/vexGrammar.g -text
+applications/hops/vex2xml/testcases/vex/a25gl.vex -text
+applications/hops/vex2xml/testcases/vex/b23gl.vex -text
+applications/hops/vex2xml/testcases/vex/bm452c.vex -text
+applications/hops/vex2xml/testcases/vex/c151a.vex -text
+applications/hops/vex2xml/testcases/vex/c151b.vex -text
+applications/hops/vex2xml/testcases/vex/c152a.vex -text
+applications/hops/vex2xml/testcases/vex/c152b.vex -text
+applications/hops/vex2xml/testcases/vex/c22gl.vex -text
+applications/hops/vex2xml/testcases/vex/d21us.vex -text
+applications/hops/vex2xml/testcases/vex/e16b08.vex -text
+applications/hops/vex2xml/testcases/vex/g26us.vex -text
+applications/hops/vex2xml/testcases/vex/gbc1.vex -text
+applications/hops/vex2xml/testcases/vex/new27.vex -text
+applications/hops/vex2xml/testcases/xml/a25gl.xml -text svneol=unset#text/xml
+applications/hops/vex2xml/testcases/xml/b23gl.xml -text svneol=unset#text/xml
+applications/hops/vex2xml/testcases/xml/bm452c.xml -text svneol=unset#text/xml
+applications/hops/vex2xml/testcases/xml/c151a.xml -text svneol=unset#text/xml
+applications/hops/vex2xml/testcases/xml/c151b.xml -text svneol=unset#text/xml
+applications/hops/vex2xml/testcases/xml/c152a.xml -text svneol=unset#text/xml
+applications/hops/vex2xml/testcases/xml/c152b.xml -text svneol=unset#text/xml
+applications/hops/vex2xml/testcases/xml/c22gl.xml -text svneol=unset#text/xml
+applications/hops/vex2xml/testcases/xml/d21us.xml -text svneol=unset#text/xml
+applications/hops/vex2xml/testcases/xml/e16b08.xml -text svneol=unset#text/xml
+applications/hops/vex2xml/testcases/xml/g26us.xml -text svneol=unset#text/xml
+applications/hops/vex2xml/testcases/xml/gbc1.xml -text svneol=unset#text/xml
+applications/hops/vex2xml/testcases/xml/new27.xml -text svneol=unset#text/xml
 applications/mk5daemon/AUTHORS -text
 applications/mk5daemon/ChangeLog -text
 applications/mk5daemon/Makefile.am -text
