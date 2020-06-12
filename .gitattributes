@@ -242,6 +242,7 @@ applications/difx_monitor/monserver.cpp -text
 applications/difx_monitor/monserver.h -text
 applications/difx_monitor/stripinput.pl -text
 applications/difx_monitor/vcal.cpp -text
+applications/difxcalc11/ChangeLog -text
 applications/difxcalc11/Makefile.am -text
 applications/difxcalc11/README -text
 applications/difxcalc11/configure.ac -text
