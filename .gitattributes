@@ -2743,6 +2743,7 @@ mpifxcorr/utils/startdifx -text
 sites/Haystack/README.txt -text
 sites/Haystack/ehtc/Readme-Cycle4.txt -text
 sites/Haystack/ehtc/Readme-Cycle5.txt -text
+sites/Haystack/ehtc/alma-vex-defs.py -text
 sites/Haystack/ehtc/ehtc-aeditjob.sh -text
 sites/Haystack/ehtc/ehtc-antab.sh -text
 sites/Haystack/ehtc/ehtc-cycle4.codes -text
