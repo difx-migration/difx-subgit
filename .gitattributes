@@ -2069,6 +2069,7 @@ applications/polconvert/src/Weighter.cpp -text
 applications/polconvert/src/Weighter.h -text
 applications/polconvert/src/_PolConvert.cpp -text
 applications/polconvert/src/_PolGainSolve.cpp -text
+applications/polconvert/src/_XPCal.cpp -text
 applications/polconvert/src/_getAntInfo.cpp -text
 applications/polconvert/src/polconvert.xml -text svneol=unset#application/xml
 applications/polconvert/src/setup.py -text
