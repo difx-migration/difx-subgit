@@ -2740,6 +2740,7 @@ mpifxcorr/utils/jobstatus -text
 mpifxcorr/utils/mpispeed.cpp -text
 mpifxcorr/utils/startdifx -text
 /setup.bash -text
+/setup.csh -text
 sites/Haystack/README.txt -text
 sites/Haystack/ehtc/Readme-Cycle4.txt -text
 sites/Haystack/ehtc/Readme-Cycle5.txt -text
